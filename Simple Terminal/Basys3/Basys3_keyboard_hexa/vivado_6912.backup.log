@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Feb 18 14:59:10 2020
+# Process ID: 6912
+# Current directory: D:/Basys3/Basys3/Basys3_keyboard_hexa
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9516 D:\Basys3\Basys3\Basys3_keyboard_hexa\Basys3_keyboard_hexa.xpr
+# Log file: D:/Basys3/Basys3/Basys3_keyboard_hexa/vivado.log
+# Journal file: D:/Basys3/Basys3/Basys3_keyboard_hexa\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/archive_project_summary.txt'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.board'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/Datos/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Datos/repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 733.961 ; gain = 145.699
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+Wrote  : <D:\Basys3\Basys3\Basys3_keyboard_hexa\Basys3_keyboard_hexa.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Tue Feb 18 15:00:08 2020] Launched synth_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 970.242 ; gain = 138.102
+launch_runs impl_1 -jobs 8
+[Tue Feb 18 15:01:25 2020] Launched impl_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Feb 18 15:03:58 2020] Launched impl_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1712.074 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1712.074 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.074 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:27 . Memory (MB): peak = 1845.270 ; gain = 875.027
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1845.270 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183739958A
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2930.055 ; gain = 1084.785
+set_property PROGRAM.FILE {D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183739958A
+close_hw
+open_bd_design {D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/design_1.bd}
+Successfully read diagram <design_1> from BD file <D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/design_1.bd>
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Feb 18 16:03:34 2020] Launched synth_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Feb 18 16:03:48 2020] Launched synth_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Feb 18 16:08:36 2020] Launched impl_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/runme.log
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.srcs/sources_1/bd/design_1/design_1.bd]
+refresh_design
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 3166.809 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 3166.809 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3224.840 ; gain = 130.148
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Feb 18 16:28:03 2020] Launched impl_1...
+Run output will be captured here: D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183739958A
+set_property PROGRAM.FILE {D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Basys3/Basys3/Basys3_keyboard_hexa/Basys3_keyboard_hexa.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183739958A
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 17:42:11 2020...

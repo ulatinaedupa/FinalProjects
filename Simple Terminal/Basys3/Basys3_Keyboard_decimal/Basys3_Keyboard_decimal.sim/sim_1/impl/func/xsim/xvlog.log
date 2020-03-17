@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.sim/sim_1/impl/func/xsim/top_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PS2Receiver
+INFO: [VRFC 10-311] analyzing module bin2ascii
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-311] analyzing module debouncer__1
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module uart_buf_con
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-311] analyzing module glbl

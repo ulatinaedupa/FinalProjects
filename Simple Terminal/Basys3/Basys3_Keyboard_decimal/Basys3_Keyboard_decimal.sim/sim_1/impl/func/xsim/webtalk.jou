@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Aug 25 15:47:48 2019
+# Process ID: 11380
+# Current directory: D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.sim/sim_1/impl/func/xsim/xsim.dir/top_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Datos/Downloads/Basys-3-Keyboard-2018.2-3/vivado_proj/Basys-3-Keyboard.sim/sim_1/impl/func/xsim/xsim.dir/top_func_impl/webtalk/xsim_webtalk.tcl -notrace
