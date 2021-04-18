@@ -1,0 +1,16 @@
+.\debug\fs_config.o: RTE\File_System\FS_Config.c
+.\debug\fs_config.o: .\RTE\_Debug\RTE_Components.h
+.\debug\fs_config.o: RTE\File_System\FS_Config_USB_0.h
+.\debug\fs_config.o: C:\Users\Laura\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\FileSystem\Include\fs_config.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\debug\fs_config.o: C:\Users\Laura\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\FileSystem\Include\rl_fs_lib.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\debug\fs_config.o: C:\Users\Laura\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\FileSystem\Include\rl_fs.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\debug\fs_config.o: C:\Users\Laura\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.8.0\FileSystem\Include\fs_os.h
+.\debug\fs_config.o: C:\Users\Laura\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\debug\fs_config.o: C:\Users\Laura\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include\rtx_os.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
